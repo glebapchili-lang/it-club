@@ -7,10 +7,10 @@ public class StrongMonster extends Monster {
 
     StrongMonster(int sizeBoard) {
         super(sizeBoard);
-        setImage("💪"); // символ сильного монстра
+        setImage("\uD83D\uDC7E"); //
     }
 
-    // метод при столкновении
+
     public void attack(Person person) {
         int a = r.nextInt(50) + 1;
         int b = r.nextInt(50) + 1;
